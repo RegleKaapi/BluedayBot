@@ -1,3 +1,6 @@
+cat <<EOT > .gitignore
 node_modules/
 .env
+*.tmp
 databaseDC.json
+EOT
